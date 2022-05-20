@@ -1,1 +1,0 @@
-Thickness (nm),0,Current channel width (micron),1000
