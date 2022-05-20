@@ -24,9 +24,9 @@ logging.basicConfig(stream=sys.stdout,
 logger = logging.getLogger()
 logger.setLevel(LOG_LEVEL)
 
-abs_dir_path_processor = '/Users/scottquincey/Desktop/21-22/final-year-project/experimental_results/processor'
-abs_dir_path_processed_data = '/Users/scottquincey/Desktop/21-22/final-year-project/experimental_results/processed_data'
-abs_dir_path_archive = '/Users/scottquincey/Desktop/21-22/final-year-project/experimental_results/archive_of_original_files'
+abs_dir_path_processor = ''
+abs_dir_path_processed_data = ''
+abs_dir_path_archive = ''
 
 all_files_in_directory = [d for d in os.listdir(abs_dir_path_processor)]
 
