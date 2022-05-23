@@ -7,7 +7,7 @@ The repository is organised into different sections:
 - Data processing
 
 ### Data
-The data folder includes data for sample A and sample B. There is also a csv file for the magnet calibration. The data included is the same data used for analysis in the report in section I: Extracting a spin Hall angle.
+The data folder includes data for sample A and sample B. There is also a csv file for the magnet calibration. The data included is the same data used for analysis in the report in section I: Extracting a spin Hall angle. All data was collected by the author.
 
 ### Analysis
 The analysis is conducted in Jupyter notebook files. These include:
@@ -15,10 +15,11 @@ The analysis is conducted in Jupyter notebook files. These include:
 - sample_B_analysis.ipynb
 - magnet_calibration.ipynb
 
-The sample A and sample B analysis files include all relevant analysis to go from a raw data collected using experimental equipment at Loughborough University, to a spin Hall angle. The notebooks are generic, and any harmonic hall measurement data can be used for analysis in the analysis notebook provided the imported csv containing the data is in the correct format.
+The sample A and sample B analysis files include all relevant analysis to go from raw data collected using experimental equipment at Loughborough University, to a spin Hall angle. The notebooks are generic, and any harmonic hall measurement data can be used for analysis in the analysis notebook provided the imported csv containing the data is in the correct format. All code is written by the author.
+
 
 ### Data processing 
-The data processing includes a 'txt to csv script' and a 'read_csv.py'.
+The data processing includes a 'txt to csv script' and a 'read_csv.py'. All code is written by the author.
 
 ##### txt to csv script
 To run this process, run the 'reading_file_script.py' script from the terminal. Files are to be put in the 'processor' folder before running the script. Make sure to only run the script once on each data txt file. It is necessary to create three folder called 'archive_of_original_files', 'processed_data' and 'processor'. The file paths for these folder are to be input into the code.
