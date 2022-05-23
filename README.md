@@ -15,7 +15,7 @@ The analysis is conducted in Jupyter notebook files. These include:
 - sample_B_analysis.ipynb
 - magnet_calibration.ipynb
 
-The sample A and sample B analysis files include all relevant analysis to go from a raw data collected using experimental equipment at Loughborough University, to a spin Hall angle.
+The sample A and sample B analysis files include all relevant analysis to go from a raw data collected using experimental equipment at Loughborough University, to a spin Hall angle. The notebooks are generic, and any harmonic hall measurement data can be used for analysis in the analysis notebook provided the imported csv containing the data is in the correct format.
 
 ### Data processing 
 The data processing includes a 'txt to csv script' and a 'read_csv.py'.
